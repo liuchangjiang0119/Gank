@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/favorite"
+          android:title="收藏"
+          android:icon="@drawable/ic_favorite_border_black_24dp"
+          app:showAsAction="always"/>
+    <item
+        android:id="@+id/copy"
+        android:title="复制"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/browser"
+        android:title="在浏览器中打开"
+        android:icon="@drawable/ic_language_black_24dp"
+        app:showAsAction="always"/>
+</menu>

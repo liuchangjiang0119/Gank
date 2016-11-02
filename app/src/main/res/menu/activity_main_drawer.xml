@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/my_favorite"
+        android:title="我的收藏"
+        android:icon="@drawable/ic_favorite_border_black_24dp"/>
+    <item
+        android:id="@+id/night_model"
+        android:title="夜间模式"
+        android:icon="@drawable/ic_brightness_3_black_24dp"/>
+    <item
+        android:id="@+id/about"
+        android:title="关于   V1.0.0"
+        android:icon="@drawable/ic_error_outline_black_24dp"/>
+
+</menu>

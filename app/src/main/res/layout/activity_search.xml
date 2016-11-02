@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.gank.gank.activity.SearchActivity">
+    <com.tt.whorlviewlibrary.WhorlView
+        android:id="@+id/search_whorl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:whorlview_circle_colors="#F14336_#ffffff_#5677fc_#F44336_#4CAF50"
+        app:whorlview_circle_speed="270"
+        app:whorlview_parallax="fast"
+        app:whorlview_strokeWidth="6"
+        app:whorlview_sweepAngle="90"
+        />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/search_fresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>
