@@ -6,14 +6,28 @@
 * 简单的推送展示和搜索功能
 * MVP框架
 * Retrofit+Rxjava+Glide
-* RxBus实践
-* Dagger2依赖注入实践
-* 移动数据库Realm实践
-* 未完待续...
+* X5WebView
+* 移动数据库GreenDAO实践
+* OkHttp缓存
+* 图片下载
 
 
 本App主要用于学习和进的技术的实践和应用。
 
-## 开发日志
+## TODO
 
-* 9-21 : 从不标准的MVP到稍微标准一些的MVP过渡，进行了基本的数据显示，但对于Fragment的Bundle传值以及当list内容更新时RecyclerView的刷新方式还有疑问，近期加强学习。
+* mvp+dagger2重构
+* 夜间模式优化
+* ...
+
+## ScreenShot
+
+![image](https://github.com/liuchangjiang0119/Gank/blob/master/screenshot/S61102-14141685.jpg?raw=true)
+
+![image](https://github.com/liuchangjiang0119/Gank/blob/master/screenshot/S61102-14143131.jpg?raw=true)
+
+![image](https://github.com/liuchangjiang0119/Gank/blob/master/screenshot/S61102-14143809.jpg?raw=true)
+
+![image](https://github.com/liuchangjiang0119/Gank/blob/master/screenshot/S61102-20563576.jpg?raw=true)
+
+![image](https://github.com/liuchangjiang0119/Gank/blob/master/screenshot/S61102-20563576.jpg?raw=true)
